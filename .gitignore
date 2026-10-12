@@ -1,0 +1,23 @@
+# Credentials and local environments
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Competition data, weights, runtime logs and predictions
+data/
+datasets/
+outputs/
+checkpoints/
+*.zip
+*.csv
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.log
